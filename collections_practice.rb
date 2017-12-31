@@ -46,6 +46,6 @@ def add_s(arr)
     word[word.length]="s"
     final_arr << word
   end
-  final_arr[1] = arr[1]
+  final_arr[1][final_arr.length - 1] = ""
   final_arr
 end
