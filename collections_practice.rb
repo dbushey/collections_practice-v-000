@@ -21,5 +21,11 @@ def reverse_array(arr)
   arr.reverse!
 end
 
-def kesha_maker
+def kesha_maker(arr)
+  final_arr = []
+  arr.each do |word| 
+    word[2]="$"
+    final_arr << word
+  end
+  final_arr
 end
