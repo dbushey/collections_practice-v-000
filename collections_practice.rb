@@ -41,5 +41,11 @@ def sum_array(arr)
 end
 
 def add_s(array)
-
+  final_arr = []
+  arr.each do |word|
+    word[length]="s"
+    final_arr << word
+  end
+  final_arr[1] = array[1]
+  final_arr
 end
