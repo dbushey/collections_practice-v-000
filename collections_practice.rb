@@ -43,7 +43,7 @@ end
 def add_s(arr)
   final_arr = []
   arr.each do |word|
-    word[length]="s"
+    word[word.length]="s"
     final_arr << word
   end
   final_arr[1] = arr[1]
